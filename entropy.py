@@ -45,3 +45,4 @@ if __name__ == '__main__':
     empiricalEntropy(label) - empiricalConditionalEntropy(label=df['type'], feature=df['work'])     # 0.324 
     empiricalEntropy(label) - empiricalConditionalEntropy(label=df['type'], feature=df['house'])    # 0.420
     empiricalEntropy(label) - empiricalConditionalEntropy(label=df['type'], feature=df['credit'])   # 0.363
+    
