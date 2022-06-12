@@ -33,10 +33,8 @@ a211(petal length)--petal_length>=3.2097-->a2110(Iris-virginica)
 ```mermaid
 graph TB
 root--root-->a(petal width)
-a(petal width)--petal_width<0.9600-->a0(Iris-setosa)
-a(petal width)--petal_width>=0.9600-->a1(sepal length)
-a1(sepal length)--sepal_length<5.9173-->a10(Iris-versicolor)
-a1(sepal length)--sepal_length>=5.9173-->a11(Iris-virginica)
-
+a(petal width)--petal_width<0.7720-->a0(Iris-setosa)
+a(petal width)--0.7720<=petal_width<1.6615-->a1(Iris-versicolor)
+a(petal width)--petal_width>=1.6615-->a2(Iris-virginica)
 ```
 
