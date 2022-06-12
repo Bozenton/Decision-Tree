@@ -3,7 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import re
 from copy import deepcopy
-
 from decision_tree import Node, DecisionTree
 
 if __name__ == '__main__':
